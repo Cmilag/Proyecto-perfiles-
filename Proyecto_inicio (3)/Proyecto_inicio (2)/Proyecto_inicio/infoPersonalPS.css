@@ -12,7 +12,7 @@ body {
     align-items: center;
     justify-content: center;
     padding: 10px 20px;
-    background-color: #afdef3; /* color encabezado*/
+    background-color: #afdef3;
     position: relative;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -56,7 +56,7 @@ body {
 /* Menú lateral */
 .side-menu {
     width: 220px;
-    background-color:#afdef3;
+    background-color: #afdef3;
     padding: 20px;
     position: fixed;
     top: 0;
@@ -98,7 +98,7 @@ body {
 
 /* Efecto al pasar el ratón sobre los elementos */
 .side-menu ul li:hover {
-    background-color: #ffffff; /* color azul*/
+    background-color: #ffffff;
 }
 
 /* Iconos en el menú lateral */
@@ -196,74 +196,151 @@ body {
 
 
 
-/* Estilo para el calendario */
-#calendar {
-    background-color: #fff;
-    padding: 50px; /* Reducimos el padding para que la tarjeta sea más pequeña */
-    border-radius: 8px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
-    width: 80%; /* Reduce el ancho del calendario */
-    max-width: 800px; /* Tamaño máximo de la tarjeta */
-    margin: 0 auto; /* Centra la tarjeta horizontalmente */
-}
 
-/* Aumentar el alto de las filas de cada hora */
-.fc-timeGrid .fc-timeGrid-slot {
-    height: 60px; /* Ajusta este valor según la altura deseada */
-}
 
-/* Ajustar el tamaño de fuente y padding de los eventos */
-.fc-event {
-    font-size: 1em; /* Aumenta el tamaño de fuente */
-    padding: 10px; /* Aumenta el padding para mejor visibilidad */
-    white-space: normal; /* Permite que el texto haga salto de línea */
-}
 
-/* Clase para eventos ocupados */
-.fc-event-occupied {
-    background-color: #ff6b6b !important;
-    color: white !important;
-    font-weight: bold; /* Opcional: Hace que el texto sea más grueso */
-}
 
-/* Clase para eventos disponibles */
-.fc-event-available {
-    background-color: #4CAF50 !important;
-    color: white !important;
-}
 
-/* Contenedor principal */
-.container {
-    margin: 30px auto;
-    width: 90%; /* Ajusta el ancho del contenedor principal */
-    max-width: 900px; /* Tamaño máximo para que el contenedor no sea tan grande */
-    background-color: white;
-    padding: 20px; /* Ajuste del padding del contenedor */
-    border-radius: 8px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    text-align: center; /* Centra el texto dentro del contenedor */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    margin: 0;
+    padding: 0;
     display: flex;
     flex-direction: column;
-    align-items: center; /* Alinea todo el contenido horizontalmente al centro */
-    justify-content: center; /* Centra verticalmente el contenido */
+    align-items: center;
 }
 
-/* Título dentro del contenedor */
-h2 {
-    font-size: 1.8em;
-    color: #4A90E2;
+.profile-info h2 {
     text-align: center;
-    margin-bottom: 20px;
 }
 
 
+.header {
+    background-color: #2a557f;
+    width: 100%;
+    color: white;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
 
+.header h1 {
+    margin: 0;
+}
 
+.logout {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
 
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    gap: 20px;
+    width: 90%;
+    max-width: 1200px;
+}
 
+.profile-info, .summary, .actions {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 100%;
+}
 
+.profile-info, .summary {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
 
+.profile-info h2, .summary h2 {
+    margin-top: 0;
+}
 
+.profile-photo {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
+.profile-photo img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #6bc2c5;
+    margin-bottom: 10px;
+    
+}
 
+.profile-photo input[type="file"] {
+    display: none;
+}
 
+.uploadp-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #6bc2c5;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button {
+    background-color: #2a557f;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    
+}
+
+button:hover {
+    background-color: #1d3e5c;
+}

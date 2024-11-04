@@ -187,3 +187,64 @@ body {
 .logout-link:hover {
     background-color: #e12897;
 }
+
+
+
+
+
+
+
+    .container {
+        margin: 30px auto;
+        width: 90%; /* Ajusta el ancho del contenedor principal */
+        max-width: 900px; /* Tamaño máximo para que el contenedor no sea tan grande */
+        background-color: white;
+        padding: 20px; /* Ajuste del padding del contenedor */
+        border-radius: 8px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        text-align: center; /* Centra el texto dentro del contenedor */
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Alinea todo el contenido horizontalmente al centro */
+        justify-content: center; /* Centra verticalmente el contenido */
+    }
+
+
+.patients-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.patients-table th, .patients-table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.patients-table th {
+    background-color: #2a557f;
+    color: white;
+    font-weight: normal;
+}
+
+.patients-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.btn {
+    background-color: #2a557f;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.btn:hover {
+    background-color: #1d3e5c;
+}

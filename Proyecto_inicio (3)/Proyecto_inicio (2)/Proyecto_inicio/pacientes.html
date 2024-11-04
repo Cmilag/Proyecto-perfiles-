@@ -45,6 +45,44 @@
   <!-- contenido de la pagina-->
 
 
+  <div class="container">
+    <table class="patients-table">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Edad</th>
+                <th>Diagnóstico</th>
+                <th>Opciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Matías Pérez</td>
+                <td>27</td>
+                <td>Depresión leve</td>
+                <td>
+                    <button class="btn" onclick="verFicha('Matías Pérez')">Ver Ficha</button>
+                    <button class="btn" onclick="verCitas('Matías Pérez')">Ver Citas</button>
+                    <button class="btn" onclick="verDiagnostico('Matías Pérez')">Ver Diagnóstico</button>
+                </td>
+            </tr>
+            <tr>
+                <td>Camila Gómez</td>
+                <td>34</td>
+                <td>Ansiedad Generalizada</td>
+                <td>
+                    <button class="btn" onclick="verFicha('Camila Gómez')">Ver Ficha</button>
+                    <button class="btn" onclick="verCitas('Camila Gómez')">Ver Citas</button>
+                    <button class="btn" onclick="verDiagnostico('Camila Gómez')">Ver Diagnóstico</button>
+                </td>
+            </tr>
+            <!-- Más pacientes aquí -->
+        </tbody>
+    </table>
+</div>
+
+<script src="pacientes.js"></script>
+
 
 
 
