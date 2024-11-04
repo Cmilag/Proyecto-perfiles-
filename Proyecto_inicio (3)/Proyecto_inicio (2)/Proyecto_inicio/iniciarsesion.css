@@ -1,0 +1,216 @@
+
+/*Css menu*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Asegura que el menú esté sobre otros elementos */
+    background-color: white; /* Puedes ajustarlo según el diseño */
+}
+
+body {
+    margin-top: 80px; /* Ajusta este valor según la altura del menú */
+}
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+/* color para el menu */
+.content{
+    min-height: 80px;
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+.menu{
+    position: absolute;
+    top: 10px;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+
+}
+
+.logo{
+    font-size: 25px10;
+    color: #ffffff; 
+    text-transform: uppercase;
+    font-weight: bold;
+    
+    
+}
+
+.menu .navbar ul li{
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li{
+    font-size: 18px;
+    padding: 20px;
+    color:#DEDEDE;
+    display: block;
+    font-weight: bold;
+}
+
+.menu .navbar ul li{
+    color: rgb(165, 36, 36);
+}
+
+
+
+.login-form-container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.login-form-container h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.login-form-container p {
+    color: #666;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.login-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #6a5acd;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login-button:hover {
+    background-color: #5a4ec7;
+}
+
+.switch-form {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.switch-form a {
+    color: #6a5acd;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* css footer*/
+.footer {
+    background-color: #5d5c77;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
